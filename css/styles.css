@@ -1,0 +1,117 @@
+body {
+	font-family: Arial, sans-serif;
+}
+
+.redes-sociais {
+	padding: 10px;
+	text-align: right;
+}
+
+.redes-sociais a {
+    margin-left: 10px; /* Adiciona um espaçamento entre os ícones */
+    font-size: 20px; /* Ajuste conforme necessário */
+    color: blue; /* Cor dos ícones */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+.redes-sociais a {
+    margin-left: 10px; /* Adiciona um espaçamento entre os ícones */
+    font-size: 20px; /* Ajuste conforme necessário */
+    color: blue; /* Cor dos ícones */
+    text-decoration: none;
+}
+
+.redes-sociais a:visited {
+    color: #24034e; /* Cor dos links já visitados */
+}
+
+.redes-sociais a:hover {
+    color: #ff00dd; /* Cor quando passa o mouse */
+}
+
+.redes-sociais a:active {
+    color: #a200ff; /* Cor quando o link é clicado */
+}
+
+.foto-e-nome {
+	padding: 20px;
+	text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 15%;
+    filter: drop-shadow(2px 2px 4px #000000); /* Adiciona o contorno */
+}
+
+.menu ul {
+	list-style: none; /* Remove os marcadores da lista */
+	padding: 0;
+	margin: 0;
+	display: flex; /* Usa flexbox para organizar os itens em linha */
+	justify-content: center; /* Centraliza os itens */
+}
+
+.menu li {
+	margin: 0 15px; /* Adiciona espaçamento entre os itens */
+}
+
+.menu a {
+	color: #fff;
+	text-decoration: none;
+	font-weight: bold;
+    font-family: 'Sour Gummy', cursive; /* Adiciona a fonte Sour Gummy */
+    font-size: 25px; /* Aumenta o tamanho do texto */
+    text-shadow: 1px 1px 0 #000, /* Contorno preto */
+                 -1px -1px 0 #000,
+                 1px -1px 0 #000,
+                 -1px 1px 0 #000; /* Adiciona contorno ao texto */
+}
+
+.conteudo {
+    display: flex; /* Ativa o Flexbox */
+    justify-content: space-between; /* Espaço entre os elementos */
+}
+
+.texto-principal {
+    width: 70%; /* Define a largura do texto principal */
+    padding: 20px;
+    background-color: rgb(4, 55, 85);
+    font-family: 'Sour Gummy', cursive;
+}
+
+.menu-lateral {
+    width: 20%; /* Define a largura do menu lateral */
+    padding: 20px;
+    background-color: purple;
+}
+
+
+.rodape {
+    background-color: #222; /* Cor de fundo escura */
+    color: #ffffff; /* Texto branco */
+    text-align: center; /* Centraliza o texto */
+    padding: 15px 0; /* Espaçamento interno */
+    font-size: 16px;
+    position: relative; /* Garante que fique no fluxo normal da página */
+    width: 100%; /* Ocupa toda a largura */
+}
+
+.rodape a {
+    color: rgb(169, 124, 241); /* Cor padrão (cinza claro) */
+    text-decoration: none; /* Remove o sublinhado */
+    font-weight: bold;
+    transition: color 0.3s ease-in-out; /* Suaviza a mudança de cor */
+}
+
+.rodape a:visited {
+    color: rgb(255, 0, 234); /* Cor quando o link já foi clicado */
+}
+
+.rodape a:hover {
+    color: rgb(255, 0, 212); /* Cor ao passar o mouse */
+}
+
+.rodape a:active {
+    color: rgb(130, 7, 245); /* Cor do link ativo (cinza escuro) */
+}
